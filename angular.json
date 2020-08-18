@@ -24,9 +24,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/bootstrap/css/bootstrap.min.css",
+              "src/assets/font-awesome/css/fontawesome-all.min.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.3.1.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/bootstrap/js/bootstrap.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Search-house"
+    }
+  },
+  "defaultProject": "Search-house",
+  "cli": {
+    "analytics": "d621346f-1238-4134-9e7f-e7ebd6d07d38"
+  }
 }
